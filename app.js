@@ -5,6 +5,7 @@ const bodyParser = require("body-parser");
 const puppeteer = require("puppeteer");
 const fs = require("fs-extra");
 const path = require("path");
+
 let dataGlobal = {};
 
 const compile = async function (templateName, data) {
@@ -61,4 +62,5 @@ app.get("/imprimircertificado", function (req, res) {
   createPdf();
 });
 
-app.listen(8080);
+const porta = process.env.PORT || 8080;
+app.listen(porta);
