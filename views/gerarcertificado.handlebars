@@ -1,0 +1,23 @@
+<link rel="stylesheet" href="css/styleGerarCertificado.css">
+    
+<h1>Gerar certificado</h1>
+
+<form action="/certificado" method="POST">
+    <strong> #weimpact </strong>
+
+    <label for="inputNomeAluno"> Nome: </label>
+    <input id="inputNomeAluno" type="text" name="nomeAluno">
+
+    <label for="inputNomeCurso"> Curso: </label>
+    <input id="inputNomeCurso" type="text" name="nomeCurso">
+
+    <label for="inputDataInicio"> Data início: </label>
+    <input id="inputDataInicio" type="date" name="dataInicio">
+
+    <label for="inputDataFim"> Data término: </label>
+    <input id="inputDataFim" type="date" name="dataFim">
+
+    <button id="botaoGerar" type="submit"> 
+        Gerar certificado 
+    </button>
+</form>

@@ -1,0 +1,36 @@
+<link rel="stylesheet" href="css/styleCertificado.css">
+
+<h1>{{dataGlobal.nomeAluno}}</h1>
+
+<div class="container">
+  <p>
+    participou do curso: {{dataGlobal.nomeCurso}}
+    <span>
+      de {{dataGlobal.dataInicio}} a {{dataGlobal.dataFim}}
+    </span>
+  </p>
+</div>
+ 
+
+  <footer>
+    <figure>      
+      <figcaption>
+        Christiano Milfont
+        <br>
+        CTO 
+      </figcaption>
+    </figure>
+
+    <a target="_blank" href="https://www.weimpact.tech/">
+            <img src="https://www.weimpact.tech/images/logo-we-impact.svg?crc=4262015885" alt="logo we impact">
+    </a>
+
+    <button id="imprimirCertificado" type="submit" onClick="imprimir();">
+    Imprimir
+    </button>
+
+    <script src="js/script.js"></script>
+
+  </footer>
+
+  
