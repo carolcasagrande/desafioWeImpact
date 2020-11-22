@@ -16,6 +16,7 @@ html {
   }
 
   body {
+    
     position: relative;
 
     color: #525f6b;
@@ -23,10 +24,11 @@ html {
     overflow: hidden;
 
     padding: 0;
+    padding-top: 2em;
     padding-bottom: 2.35em;
     max-height: 100%;
     width: 25.7em;
-    height: 16.03em;
+    height: 14.75em;
     
     font-size: 3.5vmin;
     
@@ -90,7 +92,8 @@ html {
   p {
     font-size: 1.3rem;
     text-align: center;
-    padding-bottom: 5rem;    
+    padding-bottom: 4rem;   
+    padding-top: 3rem;
   }
 
   p a {
@@ -233,9 +236,9 @@ html {
     }
     
     body {
-        max-width: 2048px;
-        max-height: 1515px;
-        font-size: 3.5vw;
+        max-width: 2035px;
+        max-height: 1505px;
+        font-size: 3.6vw;
     } 
   }
   
