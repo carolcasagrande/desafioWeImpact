@@ -49,7 +49,7 @@ app.use(bodyParser.json());
 
 app.set("view engine", "handlebars");
 
-app.get("/gerarcertificado", function (req, res) {
+app.get("/", function (req, res) {
   res.render("gerarcertificado");
 });
 
