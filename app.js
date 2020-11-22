@@ -24,7 +24,7 @@ const createPdf = async () => {
     const page = await browser.newPage();
     console.log(dataGlobal);
     const content = await compile("certificado", { dataGlobal });
-
+    console.log(dataGlobal);
     await page.setContent(content);
     await page.emulateMediaType("screen");
 
